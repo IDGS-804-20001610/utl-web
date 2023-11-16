@@ -1,0 +1,108 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #00A888; /* Color turquesa representativo de la UTL */
+    padding: 10px;
+    font-family: sans-serif;
+  }
+  
+  /* Estilos para el logo */
+  .logo {
+    width: 200px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto; /* Mantiene la proporción de aspecto original de la imagen */
+    margin-left: 20px;
+  }
+  
+  /* Estilos para los enlaces del menú */
+  .nav-link {
+    color: #ffffff; /* Texto en color blanco */
+    margin-right: 20px; /* Margen derecho para los elementos del menú */
+    transition: font-size 0.3s, font-weight 0.3s;
+  }
+  
+  /* Estilos al pasar el mouse sobre los enlaces del menú */
+  .nav-link:hover {
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  
+  /* Alineación de los elementos del menú en la barra de navegación */
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  
+  /* Estilos para el carrusel */
+  .carousel {
+    margin: 20px;
+  }
+  
+  .carousel-item img {
+    height: 100%;
+  }
+  
+  .carousel-item img {
+    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Estilos para la sección de noticias */
+  .news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Estilos para cada tarjeta de noticias */
+  .card {
+    width: 300px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s;
+  }
+  
+  /* Estilos para la imagen de cada tarjeta */
+  .card-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Estilos para el contenido de cada tarjeta */
+  .card-content {
+    padding: 10px;
+  }
+  
+  /* Estilos para el título de cada tarjeta */
+  .card-content h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+    line-height: 1.2;
+  }
+  
+  /* Estilos para el contenido de cada tarjeta */
+  .card-content p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Estilos de transición al pasar el mouse sobre cada tarjeta */
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Estilos generales para las tarjetas */
+  .card {
+    margin: 10px;
+  }
+  
+  /* Estilos para la imagen */
+  .image img {
+    margin-top: 150px;
+    max-width: 600px; /* Establece el ancho máximo de la imagen */
+    height: auto; /* Mantiene la proporción de aspecto original de la imagen */
+    border-radius: 10%; /* Aplica un borde redondeado al 50% del tamaño de la imagen */
+  }

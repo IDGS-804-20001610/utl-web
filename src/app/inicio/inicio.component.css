@@ -1,0 +1,74 @@
+.carousel {
+    margin: 20px;
+  }
+  
+  .carousel-item img {
+    height: 100%;
+  }
+  
+  .carousel-item img {
+    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  /* Estilos para cada tarjeta */
+  .card {
+    width: 300px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s;
+  }
+
+  /* Estilos para la imagen de la tarjeta */
+  .card-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+
+  /* Estilos para el contenido de la tarjeta */
+  .card-content {
+    padding: 10px;
+  }
+
+  /* Estilos para el título de la tarjeta */
+  .card-content h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+    line-height: 1.2;
+  }
+
+  /* Estilos para el contenido de la tarjeta */
+  .card-content p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+  }
+
+  /* Estilos de transición al pasar el mouse sobre la tarjeta */
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card {
+    margin: 10px;
+  }
+
+/* Estilo para la imagen */
+.image img {
+  margin-top: 150px;
+  max-width: 600px; /* Establece el ancho máximo de la imagen */
+  height: auto; /* Mantiene la proporción de aspecto original de la imagen */
+  border-radius: 10%; /* Aplica un borde redondeado al 50% del tamaño de la imagen */
+
+}
